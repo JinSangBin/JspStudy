@@ -18,7 +18,7 @@
 
 |함수|설명|
 |--- |----|
-|void **setAttribute**(string key,object value);| scope객에 key, value 형식으로 값을 할당한다. Ex) request("today","20180707");|
+|void **setAttribute**(string key,object value);| scope객체에 key, value 형식으로 값을 할당한다. Ex) request("today","20230409");|
 |Object **getAttribute**(string key);|scope객체에서 key값으로 value값을 리턴 받는다.    Ex) String date = (String)request.getAttribute("today");Object 형식으로 리턴 됨으로 Type casting이 필요하다. |
 #
 
